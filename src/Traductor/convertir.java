@@ -408,10 +408,10 @@ public static String stringConvertido(String loreString)
 
     for (int i = 0; i < loreString.length(); i++)
     {
-        //Obtiene un caracter en la posición i
+        //Obtiene un caracter en la posicion i
         cadena = loreString.charAt(i) + "";  
 
-        //convertir caracteres a código Morse
+        //convertir caracteres a codigo Morse
         getMorse = convierte(cadena);
 
         //palabras separadas 
@@ -425,7 +425,7 @@ public static String stringConvertido(String loreString)
             //concatena la letra convertida
             convertirString = convertirString + getMorse;
 
-            //Añadir un espacio entre cada letra
+            //A�adir un espacio entre cada letra
             if (!getMorse.equals(" ")) 
             {
                 convertirString = convertirString + " ";
@@ -530,7 +530,7 @@ public static String stringConvertido(String loreString)
 
     for (int i = 0; i < loreString.length(); i++)
     {
-        //Obtiene una letra en la posición i
+        //Obtiene una letra en la posicion i
         getEspanol = loreString.charAt(i)+"";  
 
         //convertir codigo morse a letra
@@ -547,7 +547,7 @@ public static String stringConvertido(String loreString)
             //concatena la letra convertida
             convertirString1 = convertirString1 + cadena1;
 
-            //Añadir un espacio entre cada letra
+            //A�adir un espacio entre cada letra
             if (!cadena1.equals(" ")) 
             {
                 convertirString1 = convertirString1 + " ";
