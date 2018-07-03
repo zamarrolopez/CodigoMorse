@@ -525,16 +525,16 @@ public static String stringConvertido(String loreString)
  public static String stringConvertido2(String loreString)
 {
     String cadena1;
-    String getEspanol;
+    String getEspanol[];
     String convertirString1="";
 
     for (int i = 0; i < loreString.length(); i++)
     {
         //Obtiene una letra en la posicion i
-        getEspanol = loreString.charAt(i)+"";  
-
+        getEspanol = loreString.split(" ");  
+        
         //convertir codigo morse a letra
-       cadena1 = convertir(getEspanol);
+       cadena1 = convertir(getEspanol[i]);
 
         //palabras separadas 
         if (cadena1.equals(" "))
